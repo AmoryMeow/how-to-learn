@@ -26,6 +26,14 @@
   width: 568px;
 }
 
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
 /*logo*/
 .logo {
   width: 183px;
@@ -109,7 +117,7 @@
   align-self: stretch;
 }
 
-.two-columns_main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
@@ -124,7 +132,7 @@
   margin-bottom: 0;
 }
 
-.two-colums__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -255,14 +263,6 @@
   padding-bottom: 90px;
   position: relative;
   overflow: hidden;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .section-title_theme_dark {
