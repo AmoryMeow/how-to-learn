@@ -24,14 +24,10 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
 /*logo*/
@@ -80,15 +76,6 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-}
-
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  background-color: #2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
 }
 
 /*****description******/
@@ -273,6 +260,22 @@
   color: white;
 }
 
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -316,7 +319,7 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   flex-direction: column;
-  display: flexbox;
+  display: flex;
   justify-content: space-between;
 }
 
