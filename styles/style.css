@@ -46,22 +46,26 @@
 
 /*******шапка*******/
 .header__title {
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .header__subtitle {
   margin: 0;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
   left: 64px;
   bottom: 30px;
+  z-index: 2;
 }
 
 .header__link {
@@ -110,6 +114,7 @@
 }
 
 .two-columns__paragraph{
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   margin-bottom: 30px;
@@ -142,6 +147,7 @@
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -151,6 +157,7 @@
   font-weight: normal;
   width: 60%;
   margin: 0;
+  z-index: 1;
 }
 
 /*карточки*/
@@ -204,7 +211,8 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -277,11 +285,14 @@
 }
 
 .kaufman__triangle {
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+
 }
 
 /*******footer********/
@@ -348,6 +359,8 @@
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 16px;
+  list-style: none;
+  padding: 0;
 }
 
 .footer__column-link {
